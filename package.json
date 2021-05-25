@@ -1,0 +1,25 @@
+{
+  "name": "vrmlapi",
+  "version": "0.0.1",
+  "description": "A wrapper for the VRML Api",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node ./dist/test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+github.com/fish-o/VRMLApi.git"
+  },
+  "author": "Fish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fish-o/VRMLApi/issues"
+  },
+  "homepage": "https://github.com/fish-o/VRMLApi#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
